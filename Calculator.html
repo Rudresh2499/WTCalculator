@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	<script type="text/javascript" src="Calculator.js"></script>
+	<title>Calculator Page</title>
+</head>
+<body bgcolor="#111111">
+	<div class="contentBox">
+		<div class="textElement">
+			The Calculator
+		</div>
+		<br>
+		<div class="mainElement">
+			<table>
+				<tr>
+					<td colspan="3" class="inputField"><input type="text" id="inputField" name="inputField"></td>
+						<td class="tdButton"><button id="opEqual" onclick="solution()">=</button></td>
+					<td rowspan="5" class="tdButton"><button id="symClr" onclick="clr()">C</button></td>
+				</tr>
+				<tr>
+					<td class="tdButton"><button id="numSeven" onclick="inputFieldDisplay(7)">7</button></td>
+					<td class="tdButton"><button id="numEight" onclick="inputFieldDisplay(8)">8</button></td>
+					<td class="tdButton"><button id="numNine" onclick="inputFieldDisplay(9)">9</button></td>
+					<td class="tdButton"><button id="opDivide" onclick="inputFieldDisplay('/')">/</button></td>
+				</tr>
+				<tr>
+					<td class="tdButton"><button id="numFour" onclick="inputFieldDisplay(4)">4</button></td>
+					<td class="tdButton"><button id="numFive" onclick="inputFieldDisplay(5)">5</button></td>
+					<td class="tdButton"><button id="numSix" onclick="inputFieldDisplay(6)">6</button></td>
+					<td class="tdButton"><button id="opMultiply" onclick="inputFieldDisplay('*')">*</button></td>
+				</tr>
+				<tr>
+					<td class="tdButton"><button id="numOne" onclick="inputFieldDisplay(1)">1</button></td>
+					<td class="tdButton"><button id="numTwo" onclick="inputFieldDisplay(2)">2</button></td>
+					<td class="tdButton"><button id="numThree" onclick="inputFieldDisplay(3)">3</button></td>
+					<td class="tdButton"><button id="opMinus" onclick="inputFieldDisplay('-')">-</button></td>
+				</tr>
+				<tr>
+					<td class="tdButton"><button id="symDot" onclick="inputFieldDisplay('.')">.</button></td>
+					<td colspan="2" class="tdButton"><button id="numZero" onclick="inputFieldDisplay(0)">0</button></td>
+					<td class="tdButton"><button id="opPlus" onclick="inputFieldDisplay('+')">+</button></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
