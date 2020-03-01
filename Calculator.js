@@ -21,3 +21,17 @@ function solution()
 	clr()
 	document.getElementById('inputField').value = document.getElementById('inputField').value+sol
 }
+
+function changeToDarkMode()
+{
+	var cssLink = document.getElementsByTagName("link").item(0)
+	cssLink.setAttribute("href","Calculator.css")
+	document.getElementsByTagName("head").item(0).replaceChild(cssLink)
+}
+
+function changeToLightMode()
+{
+	var cssLink = document.getElementsByTagName("link").item(0)
+	cssLink.setAttribute("href","CalculatorLight.css")
+	document.getElementsByTagName("head").item(0).replaceChild(cssLink)
+}

@@ -1,17 +1,17 @@
 body
 {
-	background-color: #111111;
+	background-color: white;
 }
 
 .contentBox
 {
 	margin: auto;
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: helvetica;
 	font-size: 18px;
 	font-weight: bold;
-	background: #404040;
+	background: #f2f2f2;
 	border-radius: 5px;
 	width: 20%;
 	padding-top: 0px;
@@ -27,7 +27,7 @@ body
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background: #232323;
+	background: #d9d9d9;
 	width: 100%;
 	border: none;
 	border-top-left-radius: 5px;
@@ -46,8 +46,8 @@ body
 {
 	position: relative;
 	display: inline-block;
-	border-bottom: 1px solid #ff6666;
-	color: white;
+	border-bottom: 1px solid #1aa3ff;
+	color: black;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 14px;
@@ -58,8 +58,8 @@ body
 	position: absolute;
 	visibility: hidden;
 	width: 90px;
-	background-color: #ff6666;
-	color: white;
+	background-color: #1aa3ff;
+	color: black;
 	text-align: center;
 	padding: 5px;
 	border-radius: 3px;
@@ -83,7 +83,7 @@ body
 	margin-top: -5px;
 	border-width: 5px;
 	border-style: solid;
-	border-color: transparent #ff6666 transparent transparent;
+	border-color: transparent #1aa3ff transparent transparent;
 }
 
 .darkModeSelector:hover .modeSelectorButtons
@@ -104,7 +104,7 @@ td
 
 input[type=text]
 {
-	color: white;
+	color: black;
 	text-align: right;
 	height: 36px;
 	width: 97%;
@@ -114,7 +114,7 @@ input[type=text]
 	padding-left: 2px;
 	background: transparent;
 	border: none;
-	border-bottom: 2px solid #ff6666;
+	border-bottom: 2px solid #1aa3ff;
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
 }
@@ -123,7 +123,7 @@ input[type=text]:focus
 {
 	height: 33px;
 	width: 95%;
-	border: 2px solid #ff6666;
+	border: 2px solid #1aa3ff;
 	outline: none;
 }
 
@@ -133,11 +133,11 @@ button
 	text-align: center;
 	height: 41px;
 	width: 55px;
-	border: 2px solid #ff6666;
+	border: 2px solid #1aa3ff;
 	background: transparent;
 	font-family: helvetica;
 	font-weight: bold;
-	color: white;
+	color: black;
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
 }
@@ -172,23 +172,23 @@ button:focus
 
 button:hover
 {
-	background: #ff6666;
-	box-shadow: 0px 0px 8px 2px #ff8080;
-	color: black;
+	background: #1aa3ff;
+	box-shadow: 0px 0px 8px 2px #66c2ff;
+	color: white;
 }
 
 button:active
 {
-	background: #ff6666;
+	background: #1aa3ff;
 	transform: scale(0.8,0.8);
-	box-shadow: 0px 0px 8px 1px #ff8080;
-	color: black;
+	box-shadow: 0px 0px 8px 1px #66c2ff;
+	color: white;
 }
 
 button.modeButtons:hover
 {
-	background: #ff6666;
-	border: 2px solid #ff6666;
+	background: #1aa3ff;
+	border: 2px solid #1aa3ff;
 	box-shadow: 0px 0px 2px 1px black;
 	color: white;
 	opacity: 1;
@@ -197,8 +197,8 @@ button.modeButtons:hover
 button.modeButtons:active
 {
 	transform: scale(0.9,0.9);
-	background: #ff6666;
-	border: 2px solid #ff6666
+	background: #1aa3ff;
+	border: 2px solid #1aa3ff
 	box-shadow: 0px 0px 2px 1px black;
 	color: white;
 }

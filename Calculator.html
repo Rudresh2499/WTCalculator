@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	<link rel="stylesheet" type="text/css" href="CalculatorLight.css">
 	<script type="text/javascript" src="Calculator.js"></script>
 	<title>Calculator Page</title>
 </head>
-<body bgcolor="#111111">
+<body>
+	<div class="darkModeSelector">
+		Color Scheme
+		<span class="modeSelectorButtons">
+			<button class="modeButtons" onclick="changeToDarkMode()">Dark Mode</button>
+			<button class="modeButtons" onclick="changeToLightMode()">Light Mode</button>
+		</span>
+	</div>
 	<div class="contentBox">
 		<div class="textElement">
-			The Calculator
+			The Calculator&nbsp&nbsp
 		</div>
 		<br>
 		<div class="mainElement">
